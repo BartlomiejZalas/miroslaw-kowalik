@@ -1,5 +1,3 @@
-import NewsNowaKultura from "./NewsNowaKultura";
-
 export interface News {
   id: string;
   title: string;
