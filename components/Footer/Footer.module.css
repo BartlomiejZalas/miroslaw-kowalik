@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 64px;
+    background: #3A3025;
+}
+
+.copyright {
+    text-align: center;
+    color: #DCDCDC;
+}

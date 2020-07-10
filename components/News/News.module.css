@@ -1,0 +1,9 @@
+.news {
+    background: #DCDCDC;
+    padding: 32px 10%;
+}
+
+.title {
+    color: #004875;
+    text-shadow: #FFF 0 0 20px;
+}

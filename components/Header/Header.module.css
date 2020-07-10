@@ -1,0 +1,40 @@
+.header {
+  background-color: #293039;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-left: 10%;
+  color: #dcdcdc;
+  text-shadow: #000 0 0 20px;
+  font-family: 'Roboto Slab', sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.signature {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+@media (max-width: 450px) {
+  .heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .heading {
+    font-size: 3rem;
+  }
+}

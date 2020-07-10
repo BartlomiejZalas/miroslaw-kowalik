@@ -1,0 +1,16 @@
+.biography {
+    background: #111c23;
+    padding: 32px 10%;
+}
+
+.content {
+    color: #DCDCDC;
+    text-align: right;
+    font-size: 1.5rem;
+    padding: 16px 0;
+    line-height: 2.2rem;
+}
+
+.full {
+    text-align: justify;
+}
