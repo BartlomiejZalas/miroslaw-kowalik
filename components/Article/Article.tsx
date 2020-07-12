@@ -38,17 +38,19 @@ const Article: React.FC<Props> = ({ news, short }) => {
   } else {
     return (
       <section className={styles.article}>
-        <div className={styles.head}>
-          <h2 className={styles.title}>{news.title}</h2>
-          <span className={styles.date}>{news.date}</span>
-        </div>
-        <ContentComponent />
-        <div className={styles.articleBigImgContainer}>
-          <img
-            src={`/img/news/${news.id}.jpg`}
-            title={news.title}
-            className={styles.articleBigImg}
-          />
+        <div className={styles.padding}>
+          <div className={styles.head}>
+            <h2 className={styles.title}>{news.title}</h2>
+            <span className={styles.date}>{news.date}</span>
+          </div>
+          <ContentComponent />
+          <div className={styles.articleBigImgContainer}>
+            <img
+              src={`/img/news/${news.id}.jpg`}
+              title={news.title}
+              className={styles.articleBigImg}
+            />
+          </div>
         </div>
       </section>
     );
