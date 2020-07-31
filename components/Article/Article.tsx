@@ -20,14 +20,7 @@ const Article: React.FC<Props> = ({ news, short }) => {
           </h2>
           <span className={styles.date}>{news.date}</span>
         </div>
-        <div className={styles.columnContainer}>
-          <img
-            src={`/img/news/min-${news.id}.jpg`}
-            title={news.title}
-            className={styles.articleImg}
-          />
-          <ContentComponent />
-        </div>
+        <ContentComponent full={false} />
         <div className={styles.moreContainer}>
           <Link href={`/aktualnosci/[id]`} as={`/aktualnosci/${news.id}`}>
             <a className={styles.moreLink}>czytaj więcej &raquo;</a>
@@ -43,14 +36,7 @@ const Article: React.FC<Props> = ({ news, short }) => {
             <h2 className={styles.title}>{news.title}</h2>
             <span className={styles.date}>{news.date}</span>
           </div>
-          <ContentComponent />
-          <div className={styles.articleBigImgContainer}>
-            <img
-              src={`/img/news/${news.id}.jpg`}
-              title={news.title}
-              className={styles.articleBigImg}
-            />
-          </div>
+          <ContentComponent full={true} />
         </div>
       </section>
     );

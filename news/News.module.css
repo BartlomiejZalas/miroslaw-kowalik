@@ -1,0 +1,22 @@
+.columnContainer {
+  display: grid;
+  grid-template-columns: 25% auto;
+  column-gap: 20px;
+}
+
+@media (max-width: 750px) {
+  .columnContainer {
+    grid-template-columns: auto;
+  }
+}
+
+.articleImg {
+  width: 100%;
+}
+.articleBigImgContainer {
+  text-align: center;
+}
+.articleBigImg {
+  max-width: 500px;
+  width: 100%;
+}

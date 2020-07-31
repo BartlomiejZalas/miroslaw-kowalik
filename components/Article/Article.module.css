@@ -31,17 +31,6 @@
   column-gap: 20px;
 }
 
-.articleImg {
-  width: 100%;
-}
-.articleBigImgContainer {
-  text-align: center;
-}
-.articleBigImg {
-  max-width: 500px;
-  width: 100%;
-}
-
 .moreContainer {
   text-align: right;
 }
