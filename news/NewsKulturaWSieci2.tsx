@@ -67,9 +67,9 @@ export const ContentComponent: React.FC<Props> = ({ full }) => {
       />
       <div>
         <p>
-          Prezentujemy drugi utwór z cyklu "Kultura w Sieci" w ramach programu
-          stypendialnego Ministra Kultury i Dziedzictwa Narodowego. Utwór nosi
-          tytuł "Butterfly"...
+          Zrealizowano w ramach programu stypendialnego Ministra Kultury i
+          Dziedzictwa Narodowego – Kultura w sieci. Utwór nosi tytuł
+          "Butterfly".
         </p>
       </div>
     </div>

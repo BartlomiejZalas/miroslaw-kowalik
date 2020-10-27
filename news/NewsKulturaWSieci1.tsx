@@ -10,9 +10,9 @@ export const ContentComponent: React.FC<Props> = ({ full }) => {
     return (
       <div>
         <p>
-          Prezentujemy pierwszy utwór z cyklu "Kultura w Sieci"w ramach programu
-          stypendialnego Ministra Kultury i Dziedzictwa Narodowego. Utwór nosi
-          tytuł "Pueri", a w tworzeniu go wzięli udział:
+          Zrealizowano w ramach programu stypendialnego Ministra Kultury i
+          Dziedzictwa Narodowego – Kultura w sieci. Utwór nosi tytuł "Pueri", a
+          w tworzeniu go wzięli udział:
         </p>
         <ul>
           <li>Wojciech Roman - gitara</li>
@@ -54,9 +54,8 @@ export const ContentComponent: React.FC<Props> = ({ full }) => {
       />
       <div>
         <p>
-          Prezentujemy pierwszy utwór z cyklu "Kultura w Sieci"w ramach programu
-          stypendialnego Ministra Kultury i Dziedzictwa Narodowego. Utwór nosi
-          tytuł "Pueri"...
+          Zrealizowano w ramach programu stypendialnego Ministra Kultury i
+          Dziedzictwa Narodowego – Kultura w sieci. Utwór nosi tytuł "Pueri".
         </p>
       </div>
     </div>
